@@ -8,14 +8,13 @@ Input Format
 The first line contains , the total number of people who will arrive at the party. The next  lines contain the ages of the attendees in the order they arrive, one attendee per line.
 
 Constraints
-
+1 <= n <= 2^15.
 .
 
-For each attendee, age is between  and .
-
+For each attendee, age is between 1 and 2^20.
 Output Format
 
- lines. The th line contains the number of people who will greet the th attendee.
+n lines. The ith line contains the number of people who will greet the th attendee.
 
 Sample Input 0
 
